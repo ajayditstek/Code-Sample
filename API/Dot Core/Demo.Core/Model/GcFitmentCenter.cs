@@ -1,0 +1,42 @@
+﻿using System;
+using System.Collections.Generic;
+
+#nullable disable
+
+namespace Demo.Core.Model
+{
+    public partial class GcFitmentCenter
+    {
+        public Guid FitmentCenterId { get; set; }
+        public string FitmentCenterName { get; set; }
+        public string CompanyRegNumber { get; set; }
+        public string VatregNumber { get; set; }
+        public string ExternalId { get; set; }
+        public string Email { get; set; }
+        public string NotificationEmailAddress { get; set; }
+        public string TelNumber { get; set; }
+        public string FaxNumber { get; set; }
+        public string CellNumber { get; set; }
+        public string BankName { get; set; }
+        public string BankBranchName { get; set; }
+        public string BankAccountHolder { get; set; }
+        public string BankAccountNumber { get; set; }
+        public string PhysicalAddr1 { get; set; }
+        public string PhysicalAddr2 { get; set; }
+        public string PhysicalAddr3 { get; set; }
+        public string PhysicalAddrCode { get; set; }
+        public string PostalAddr1 { get; set; }
+        public string PostalAddr2 { get; set; }
+        public string PostalAddr3 { get; set; }
+        public string PostalAddrCode { get; set; }
+        public string CreatedBy { get; set; }
+        public DateTime? CreatedDate { get; set; }
+        public string ModifiedBy { get; set; }
+        public DateTime? ModifiedDate { get; set; }
+        public int? SyncFlag { get; set; }
+        public string Region { get; set; }
+        public Guid? RegionId { get; set; }
+        public Guid? CityId { get; set; }
+        public Guid? SuburbId { get; set; }
+    }
+}
